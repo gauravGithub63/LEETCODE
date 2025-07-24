@@ -10,7 +10,7 @@ public:
             int w = last - first;
             area = max(area, h * w);
 
-            // Move the shorter line
+            
             if (height[first] < height[last]) {
                 first++;
             } else {
